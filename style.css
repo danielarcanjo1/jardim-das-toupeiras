@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.fundo{
+    width: 100%;
+    position: relative;
+}
+
+.buraco1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 250px;
+    margin-right: 200px;
+    
+}
+.buraco2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 500px;
+    margin-right: 200px;
+}
+.buraco3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 750px;
+    margin-right: 200px;
+    
+}
+.buraco4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 250px;
+    margin-left: 200px;
+    
+}
+.buraco5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 500px;
+    margin-left: 200px;
+    
+}
+.buraco6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 750px;
+    margin-left: 200px;
+}
+
+.buraco7{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 250px;
+    margin-left: 550px;
+}
+.buraco8{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 500px;
+    margin-left: 550px;
+}
+.buraco9{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 750px;
+    margin-left: 550px;
+}
+.buraco10{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 250px;
+    margin-left: 885px;
+}
+.buraco11{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 500px;
+    margin-left: 885px;
+}
+.buraco12{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 750px;
+    margin-left: 885px;
+}
+
+.buraco1:hover{
+    
+    animation: toupeira-animation 2s ease-in-out;
+}
+@keyframes toupeira-animation{
+    0%{
+        background-image: url(./toupeira6.svg);
+        display: flex;
+    }
+    25%{
+        background-image: url(./toupeira5.svg);
+        display: flex;
+    }
+    50%{
+        background-image: url(./toupeira4.svg);
+        position: absolute;
+        display: flex;
+    }
+    75%{
+        background-image: url(./toupeira3.svg);
+        position: absolute;
+        display: flex;
+    }
+    100%{
+        background-image: url(./toupeira2.svg);
+        position: absolute;
+        display: flex;
+    }
+}
